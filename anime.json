@@ -1,0 +1,259 @@
+{
+  "spider": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42",
+  "sites": [
+    {
+      "key": "哔哩视频",
+      "name": "哔哩｜视频",
+      "type": 3,
+      "api": "csp_BiliYS",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "Anime1",
+      "name": "A1｜动漫",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/Anime1.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "漫国动漫",
+      "name": "漫国丨动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppSy",
+      "ext": {
+        "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
+        "siteKey": "rectangleadsadxa",
+        "listKey": "aassddwwxxllsx1x",
+        "parsesKey": "aassddwwxxllsx1x"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "丫丫动漫",
+      "name": "丫丫｜动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://tv.yy-fun.cc",
+        "dataKey": "qkxnwkfjwpcnwycl",
+        "dataIv": "qkxnwkfjwpcnwycl"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "方舟动漫",
+      "name": "方舟丨动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.cyfz.top",
+        "dataKey": "e72cdfd629e8895d",
+        "dataIv": "e72cdfd629e8895d"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "番薯动漫",
+      "name": "番薯丨动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://new.app.bytegooty.com",
+        "dataKey": "N4yj7l7xKxHF4*gz",
+        "dataIv": "N4yj7l7xKxHF4*gz"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "曼波动漫",
+      "name": "曼波｜动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://app.omofun1.top",
+        "dataKey": "66dc309cbeeca454",
+        "dataIv": "66dc309cbeeca454"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "咕咕动漫",
+      "name": "咕咕｜动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.gugu3.com",
+        "dataKey": "nKfZ8KX6JTNWRzTD",
+        "dataIv": "nKfZ8KX6JTNWRzTD"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "巴士动漫",
+      "name": "巴士｜动漫",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://qist.wyfc.qzz.io/XYQHiker/巴士动漫.json",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "花子动漫",
+      "name": "花子｜动漫",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/花子动漫.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "爱动漫",
+      "name": "爱动漫｜动漫",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/爱动漫.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "路漫漫",
+      "name": "路漫漫｜动漫",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/路漫漫.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "去看吧",
+      "name": "去看吧｜动漫",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/去看吧.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "哔哩合集",
+      "name": "哔哩｜合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://qist.wyfc.qzz.io/json/哔哩合集.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "drpy_js_Anime1动畫",
+      "name": "动漫 | Anime1动畫[js]",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/Anime1动畫.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "drpy_js_NT动漫",
+      "name": "动漫 | NT动漫[js]",
+      "type": 3,
+      "api": "https://qist.wyfc.qzz.io/lib/drpy2.min.js",
+      "ext": "https://qist.wyfc.qzz.io/js/NT动漫.js",
+      "jar": "https://qist.wyfc.qzz.io/jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42"
+    },
+    {
+      "key": "咕咕",
+      "name": "🦉咕咕┃动漫",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo",
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "Dm84",
+      "name": "🚌巴士┃动漫",
+      "type": 3,
+      "api": "csp_Dm84Guard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    },
+    {
+      "key": "Bili",
+      "name": "🅱哔哔合集┃弹幕",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
+      },
+      "jar": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "xmflv",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    }
+  ],
+  "rules": [
+    {
+      "host": "*",
+      "rule": [
+        "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)",
+        "default.365yg.com",
+        "douyin.com/aweme",
+        "video_id=",
+        "huoshan.com",
+        "/item/video/",
+        "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)|http((?!http).)*?xg.php\\?id=|http((?!http).)*?/m3/(.*)\\.css"
+      ]
+    }
+  ],
+  "flags": [
+    "bilibili"
+  ]
+}
