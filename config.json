@@ -1,51 +1,15 @@
 {
-  "spider": "./jar/top98_1.jar",
+  "spider": "https://raw.githubusercontent.com/syzxasdc/CatVodTVSpider1/main/jar/custom_spider.jar",
   "sites": [
     {
       "key": "zmcdy_xbiu",
-      "name": "神马电影(XBiu)",
+      "name": "神马电影",
       "type": 3,
-      "api": "csp_XBiu",
+      "api": "csp_Voflix",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://zmcdy.com/show/{cateId}--------{catePg}---.html"
-    },
-    {
-      "key": "zmcdy_xbpq",
-      "name": "神马电影(XBPQ)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "分类url": "https://zmcdy.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影&连续剧&综艺&动漫",
-        "分类值": "1&2&3&4",
-        "数组": "<div class=\"module-item-pic\">&&<div class=\"module-item\">",
-        "副标题": "module-item-note\">&&<",
-        "线路数组": "module-tab-item tab-item&&</div>",
-        "线路标题": "<span>&&</span>",
-        "播放数组": "module-play-list&&</div>",
-        "播放标题": ">&&</a>",
-        "免嗅": "1",
-        "嗅探词": ".m3u8#.mp4",
-        "过滤词": ".html#url=http",
-        "类型": "动作片$5&喜剧片$6&爱情片$7&科幻片$8&恐怖片$9&剧情片$10&战争片$11&纪录片$22&动画片$33||国产剧$13&港台剧$14&日韩剧$15&欧美剧$16||大陆综艺$20&港台综艺$21&日韩综艺$22&欧美综艺$23||国产动漫$29&日韩动漫$32&欧美动漫$34",
-        "地区": "大陆&香港&台湾&日本&韩国&美国&法国&英国&德国&泰国&印度&其他",
-        "年份": "2026&2025&2024&2023&2022&2021&2020&2019&2018&2017&2016",
-        "排序": "时间=time&人气=hits&评分=score",
-        "筛选": "1"
-      }
-    }
-  ],
-  "lives": [
-    {
-      "name": "直播",
-      "type": 0,
-      "url": "",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+      "filterable": 1,
+      "ext": "https://zmcdy.com"
     }
   ],
   "parses": [
