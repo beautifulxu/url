@@ -1,15 +1,14 @@
 {
-  "spider": "https://raw.githubusercontent.com/syzxasdc/CatVodTVSpider1/main/jar/custom_spider.jar",
   "sites": [
     {
-      "key": "zmcdy_xbiu",
+      "key": "zmcdy",
       "name": "神马电影",
-      "type": 3,
-      "api": "csp_Voflix",
+      "type": 1,
+      "api": "https://zmcdy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://zmcdy.com"
+      "playerType": 1
     }
   ],
   "parses": [
