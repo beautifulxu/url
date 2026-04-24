@@ -1,6 +1,20 @@
 {
   "sites": [
     {
+      "key": "koolearn",
+      "name": "📚新东方公开课",
+      "type": 3,
+      "api": "./js/koolearn.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.78
+      }
+    },
+    {
       "key": "zmcdy",
       "name": "🎬神马电影",
       "type": 1,
